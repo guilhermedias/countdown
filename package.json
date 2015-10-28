@@ -12,5 +12,9 @@
     "Countdown"
   ],
   "author": "Guilherme Dias",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
+  }
 }
