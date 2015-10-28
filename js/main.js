@@ -1,23 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
-var Hours = React.createClass({
-  render: function() {
-    return <div>{this.props.value}</div>;
-  }
-});
-
-var Minutes = React.createClass({
-  render: function() {
-    return <div>{this.props.value}</div>;
-  }
-});
-
-var Seconds = React.createClass({
-  render: function() {
-    return <div>{this.props.value}</div>;
-  }
-});
+var Display = require('./display.jsx');
 
 var Clock = React.createClass({
   updateTime: function() {
@@ -44,9 +28,9 @@ var Clock = React.createClass({
 
   render: function() {
     return(
-      <div>
-        <Hours value={this.state.hours} /> : <Minutes value={this.state.minutes} /> : <Seconds value={this.state.seconds} />
-      </div>
+        <div>
+          <Display value={this.state.hours} /> : <Display value={this.state.minutes} /> : <Display value={this.state.seconds} />
+        </div>
     );
   }
 });
