@@ -1,0 +1,16 @@
+{
+  "name": "countdown",
+  "version": "1.0.0",
+  "description": "A simple countdown timer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "JavaScript",
+    "Countdown"
+  ],
+  "author": "Guilherme Dias",
+  "license": "MIT"
+}
