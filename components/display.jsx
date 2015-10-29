@@ -2,7 +2,11 @@ var React = require('react');
 
 var Display = React.createClass({
   render: function() {
-    return <div>{this.props.value}</div>;
+    var style = {
+      display: 'inline'
+    };
+
+    return <div style={style}>{this.props.value}</div>;
   }
 });
 
