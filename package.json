@@ -14,6 +14,10 @@
   ],
   "author": "Guilherme Dias",
   "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/guilhermedias/countdown.git"
+  },
   "dependencies": {
     "react": "^0.14.0",
     "react-dom": "^0.14.0"
